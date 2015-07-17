@@ -7,144 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB7788131B59361100844CEA /* DrawTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77880F1B59361100844CEA /* DrawTextView.swift */; };
-		BB7788141B59361100844CEA /* TextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7788101B59361100844CEA /* TextDrawer.h */; };
-		BB7788151B59361100844CEA /* TextDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788111B59361100844CEA /* TextDrawer.swift */; };
-		BB7788161B59361100844CEA /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788121B59361100844CEA /* TextEditView.swift */; };
-		BBBC7BE21B590AF0001F1209 /* TextDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */; };
-		BBBC7BE91B590AF0001F1209 /* TextDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7BE81B590AF0001F1209 /* TextDrawerTests.swift */; };
-		BBBC7BF31B590B82001F1209 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC7BF21B590B82001F1209 /* Masonry.framework */; };
+		BB77882F1B59394F00844CEA /* TextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB77882E1B59394F00844CEA /* TextDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7788351B59394F00844CEA /* TextDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7788291B59394F00844CEA /* TextDrawer.framework */; };
+		BB77883C1B59394F00844CEA /* TextDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77883B1B59394F00844CEA /* TextDrawerTests.swift */; };
+		BB7788481B59397600844CEA /* DrawTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788451B59397600844CEA /* DrawTextView.swift */; };
+		BB7788491B59397600844CEA /* TextDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788461B59397600844CEA /* TextDrawer.swift */; };
+		BB77884A1B59397600844CEA /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788471B59397600844CEA /* TextEditView.swift */; };
+		BB77884C1B59398800844CEA /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB77884B1B59398800844CEA /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BBBC7BE31B590AF0001F1209 /* PBXContainerItemProxy */ = {
+		BB7788361B59394F00844CEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BBBC7BCD1B590AF0001F1209 /* Project object */;
+			containerPortal = BB7788201B59394F00844CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBBC7BD51B590AF0001F1209;
+			remoteGlobalIDString = BB7788281B59394F00844CEA;
 			remoteInfo = TextDrawer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB77880F1B59361100844CEA /* DrawTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawTextView.swift; path = Sources/DrawTextView.swift; sourceTree = SOURCE_ROOT; };
-		BB7788101B59361100844CEA /* TextDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextDrawer.h; path = Sources/TextDrawer.h; sourceTree = SOURCE_ROOT; };
-		BB7788111B59361100844CEA /* TextDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawer.swift; path = Sources/TextDrawer.swift; sourceTree = SOURCE_ROOT; };
-		BB7788121B59361100844CEA /* TextEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextEditView.swift; path = Sources/TextEditView.swift; sourceTree = SOURCE_ROOT; };
-		BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBBC7BDA1B590AF0001F1209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBBC7BE11B590AF0001F1209 /* TextDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBBC7BE71B590AF0001F1209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBBC7BE81B590AF0001F1209 /* TextDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDrawerTests.swift; sourceTree = "<group>"; };
-		BBBC7BF21B590B82001F1209 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		BB7788291B59394F00844CEA /* TextDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB77882D1B59394F00844CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB77882E1B59394F00844CEA /* TextDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDrawer.h; sourceTree = "<group>"; };
+		BB7788341B59394F00844CEA /* TextDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB77883A1B59394F00844CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB77883B1B59394F00844CEA /* TextDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDrawerTests.swift; sourceTree = "<group>"; };
+		BB7788451B59397600844CEA /* DrawTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTextView.swift; sourceTree = "<group>"; };
+		BB7788461B59397600844CEA /* TextDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawer.swift; sourceTree = "<group>"; };
+		BB7788471B59397600844CEA /* TextEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
+		BB77884B1B59398800844CEA /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BBBC7BD21B590AF0001F1209 /* Frameworks */ = {
+		BB7788251B59394F00844CEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBC7BF31B590B82001F1209 /* Masonry.framework in Frameworks */,
+				BB77884C1B59398800844CEA /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBBC7BDE1B590AF0001F1209 /* Frameworks */ = {
+		BB7788311B59394F00844CEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBC7BE21B590AF0001F1209 /* TextDrawer.framework in Frameworks */,
+				BB7788351B59394F00844CEA /* TextDrawer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB77880E1B59355000844CEA /* Sources */ = {
+		BB77881F1B59394F00844CEA = {
 			isa = PBXGroup;
 			children = (
-				BB77880F1B59361100844CEA /* DrawTextView.swift */,
-				BB7788101B59361100844CEA /* TextDrawer.h */,
-				BB7788111B59361100844CEA /* TextDrawer.swift */,
-				BB7788121B59361100844CEA /* TextEditView.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		BBBC7BCC1B590AF0001F1209 = {
-			isa = PBXGroup;
-			children = (
-				BBBC7BF21B590B82001F1209 /* Masonry.framework */,
-				BBBC7BD81B590AF0001F1209 /* TextDrawer */,
-				BBBC7BE51B590AF0001F1209 /* TextDrawerTests */,
-				BBBC7BD71B590AF0001F1209 /* Products */,
+				BB77884B1B59398800844CEA /* Masonry.framework */,
+				BB77882B1B59394F00844CEA /* TextDrawer */,
+				BB7788381B59394F00844CEA /* TextDrawerTests */,
+				BB77882A1B59394F00844CEA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BBBC7BD71B590AF0001F1209 /* Products */ = {
+		BB77882A1B59394F00844CEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */,
-				BBBC7BE11B590AF0001F1209 /* TextDrawerTests.xctest */,
+				BB7788291B59394F00844CEA /* TextDrawer.framework */,
+				BB7788341B59394F00844CEA /* TextDrawerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBBC7BD81B590AF0001F1209 /* TextDrawer */ = {
+		BB77882B1B59394F00844CEA /* TextDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				BB77880E1B59355000844CEA /* Sources */,
-				BBBC7BD91B590AF0001F1209 /* Supporting Files */,
+				BB7788451B59397600844CEA /* DrawTextView.swift */,
+				BB7788461B59397600844CEA /* TextDrawer.swift */,
+				BB7788471B59397600844CEA /* TextEditView.swift */,
+				BB77882E1B59394F00844CEA /* TextDrawer.h */,
+				BB77882C1B59394F00844CEA /* Supporting Files */,
 			);
 			path = TextDrawer;
 			sourceTree = "<group>";
 		};
-		BBBC7BD91B590AF0001F1209 /* Supporting Files */ = {
+		BB77882C1B59394F00844CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC7BDA1B590AF0001F1209 /* Info.plist */,
+				BB77882D1B59394F00844CEA /* Info.plist */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BBBC7BE51B590AF0001F1209 /* TextDrawerTests */ = {
+		BB7788381B59394F00844CEA /* TextDrawerTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC7BE81B590AF0001F1209 /* TextDrawerTests.swift */,
-				BBBC7BE61B590AF0001F1209 /* Supporting Files */,
+				BB77883B1B59394F00844CEA /* TextDrawerTests.swift */,
+				BB7788391B59394F00844CEA /* Supporting Files */,
 			);
 			path = TextDrawerTests;
 			sourceTree = "<group>";
 		};
-		BBBC7BE61B590AF0001F1209 /* Supporting Files */ = {
+		BB7788391B59394F00844CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC7BE71B590AF0001F1209 /* Info.plist */,
+				BB77883A1B59394F00844CEA /* Info.plist */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BBBC7BD31B590AF0001F1209 /* Headers */ = {
+		BB7788261B59394F00844CEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7788141B59361100844CEA /* TextDrawer.h in Headers */,
+				BB77882F1B59394F00844CEA /* TextDrawer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BBBC7BD51B590AF0001F1209 /* TextDrawer */ = {
+		BB7788281B59394F00844CEA /* TextDrawer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBBC7BEC1B590AF0001F1209 /* Build configuration list for PBXNativeTarget "TextDrawer" */;
+			buildConfigurationList = BB77883F1B59394F00844CEA /* Build configuration list for PBXNativeTarget "TextDrawer" */;
 			buildPhases = (
-				BBBC7BD11B590AF0001F1209 /* Sources */,
-				BBBC7BD21B590AF0001F1209 /* Frameworks */,
-				BBBC7BD31B590AF0001F1209 /* Headers */,
-				BBBC7BD41B590AF0001F1209 /* Resources */,
+				BB7788241B59394F00844CEA /* Sources */,
+				BB7788251B59394F00844CEA /* Frameworks */,
+				BB7788261B59394F00844CEA /* Headers */,
+				BB7788271B59394F00844CEA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,71 +144,71 @@
 			);
 			name = TextDrawer;
 			productName = TextDrawer;
-			productReference = BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */;
+			productReference = BB7788291B59394F00844CEA /* TextDrawer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBBC7BE01B590AF0001F1209 /* TextDrawerTests */ = {
+		BB7788331B59394F00844CEA /* TextDrawerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBBC7BEF1B590AF0001F1209 /* Build configuration list for PBXNativeTarget "TextDrawerTests" */;
+			buildConfigurationList = BB7788421B59394F00844CEA /* Build configuration list for PBXNativeTarget "TextDrawerTests" */;
 			buildPhases = (
-				BBBC7BDD1B590AF0001F1209 /* Sources */,
-				BBBC7BDE1B590AF0001F1209 /* Frameworks */,
-				BBBC7BDF1B590AF0001F1209 /* Resources */,
+				BB7788301B59394F00844CEA /* Sources */,
+				BB7788311B59394F00844CEA /* Frameworks */,
+				BB7788321B59394F00844CEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BBBC7BE41B590AF0001F1209 /* PBXTargetDependency */,
+				BB7788371B59394F00844CEA /* PBXTargetDependency */,
 			);
 			name = TextDrawerTests;
 			productName = TextDrawerTests;
-			productReference = BBBC7BE11B590AF0001F1209 /* TextDrawerTests.xctest */;
+			productReference = BB7788341B59394F00844CEA /* TextDrawerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BBBC7BCD1B590AF0001F1209 /* Project object */ = {
+		BB7788201B59394F00844CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Remi Robert";
 				TargetAttributes = {
-					BBBC7BD51B590AF0001F1209 = {
+					BB7788281B59394F00844CEA = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					BBBC7BE01B590AF0001F1209 = {
+					BB7788331B59394F00844CEA = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = BBBC7BD01B590AF0001F1209 /* Build configuration list for PBXProject "TextDrawer" */;
+			buildConfigurationList = BB7788231B59394F00844CEA /* Build configuration list for PBXProject "TextDrawer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BBBC7BCC1B590AF0001F1209;
-			productRefGroup = BBBC7BD71B590AF0001F1209 /* Products */;
+			mainGroup = BB77881F1B59394F00844CEA;
+			productRefGroup = BB77882A1B59394F00844CEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBBC7BD51B590AF0001F1209 /* TextDrawer */,
-				BBBC7BE01B590AF0001F1209 /* TextDrawerTests */,
+				BB7788281B59394F00844CEA /* TextDrawer */,
+				BB7788331B59394F00844CEA /* TextDrawerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BBBC7BD41B590AF0001F1209 /* Resources */ = {
+		BB7788271B59394F00844CEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBBC7BDF1B590AF0001F1209 /* Resources */ = {
+		BB7788321B59394F00844CEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,36 +218,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BBBC7BD11B590AF0001F1209 /* Sources */ = {
+		BB7788241B59394F00844CEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7788131B59361100844CEA /* DrawTextView.swift in Sources */,
-				BB7788151B59361100844CEA /* TextDrawer.swift in Sources */,
-				BB7788161B59361100844CEA /* TextEditView.swift in Sources */,
+				BB7788481B59397600844CEA /* DrawTextView.swift in Sources */,
+				BB7788491B59397600844CEA /* TextDrawer.swift in Sources */,
+				BB77884A1B59397600844CEA /* TextEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBBC7BDD1B590AF0001F1209 /* Sources */ = {
+		BB7788301B59394F00844CEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBC7BE91B590AF0001F1209 /* TextDrawerTests.swift in Sources */,
+				BB77883C1B59394F00844CEA /* TextDrawerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BBBC7BE41B590AF0001F1209 /* PBXTargetDependency */ = {
+		BB7788371B59394F00844CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBBC7BD51B590AF0001F1209 /* TextDrawer */;
-			targetProxy = BBBC7BE31B590AF0001F1209 /* PBXContainerItemProxy */;
+			target = BB7788281B59394F00844CEA /* TextDrawer */;
+			targetProxy = BB7788361B59394F00844CEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BBBC7BEA1B590AF0001F1209 /* Debug */ = {
+		BB77883D1B59394F00844CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		BBBC7BEB1B590AF0001F1209 /* Release */ = {
+		BB77883E1B59394F00844CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,10 +336,9 @@
 			};
 			name = Release;
 		};
-		BBBC7BED1B590AF0001F1209 /* Debug */ = {
+		BB7788401B59394F00844CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,10 +346,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					/Users/remirobert/Desktop/TextDrawer/Carthage/Build/iOS,
 				);
-				INFOPLIST_FILE = "TextDrawer/Supporting Files/Info.plist";
+				INFOPLIST_FILE = TextDrawer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -366,10 +358,9 @@
 			};
 			name = Debug;
 		};
-		BBBC7BEE1B590AF0001F1209 /* Release */ = {
+		BB7788411B59394F00844CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -377,17 +368,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					/Users/remirobert/Desktop/TextDrawer/Carthage/Build/iOS,
 				);
-				INFOPLIST_FILE = "TextDrawer/Supporting Files/Info.plist";
+				INFOPLIST_FILE = TextDrawer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		BBBC7BF01B590AF0001F1209 /* Debug */ = {
+		BB7788431B59394F00844CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -398,20 +390,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TextDrawerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = TextDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BBBC7BF11B590AF0001F1209 /* Release */ = {
+		BB7788441B59394F00844CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TextDrawerTests/Supporting Files/Info.plist";
+				INFOPLIST_FILE = TextDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,34 +412,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBBC7BD01B590AF0001F1209 /* Build configuration list for PBXProject "TextDrawer" */ = {
+		BB7788231B59394F00844CEA /* Build configuration list for PBXProject "TextDrawer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBBC7BEA1B590AF0001F1209 /* Debug */,
-				BBBC7BEB1B590AF0001F1209 /* Release */,
+				BB77883D1B59394F00844CEA /* Debug */,
+				BB77883E1B59394F00844CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBBC7BEC1B590AF0001F1209 /* Build configuration list for PBXNativeTarget "TextDrawer" */ = {
+		BB77883F1B59394F00844CEA /* Build configuration list for PBXNativeTarget "TextDrawer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBBC7BED1B590AF0001F1209 /* Debug */,
-				BBBC7BEE1B590AF0001F1209 /* Release */,
+				BB7788401B59394F00844CEA /* Debug */,
+				BB7788411B59394F00844CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		BBBC7BEF1B590AF0001F1209 /* Build configuration list for PBXNativeTarget "TextDrawerTests" */ = {
+		BB7788421B59394F00844CEA /* Build configuration list for PBXNativeTarget "TextDrawerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBBC7BF01B590AF0001F1209 /* Debug */,
-				BBBC7BF11B590AF0001F1209 /* Release */,
+				BB7788431B59394F00844CEA /* Debug */,
+				BB7788441B59394F00844CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BBBC7BCD1B590AF0001F1209 /* Project object */;
+	rootObject = BB7788201B59394F00844CEA /* Project object */;
 }
