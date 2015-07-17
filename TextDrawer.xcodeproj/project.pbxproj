@@ -339,6 +339,7 @@
 		BBBC7BED1B590AF0001F1209 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -360,6 +361,7 @@
 		BBBC7BEE1B590AF0001F1209 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -426,6 +428,7 @@
 				BBBC7BEE1B590AF0001F1209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBC7BEF1B590AF0001F1209 /* Build configuration list for PBXNativeTarget "TextDrawerTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +437,7 @@
 				BBBC7BF11B590AF0001F1209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
