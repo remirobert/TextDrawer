@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBBC7BDC1B590AF0001F1209 /* TextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBC7BDB1B590AF0001F1209 /* TextDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7788131B59361100844CEA /* DrawTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77880F1B59361100844CEA /* DrawTextView.swift */; };
+		BB7788141B59361100844CEA /* TextDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7788101B59361100844CEA /* TextDrawer.h */; };
+		BB7788151B59361100844CEA /* TextDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788111B59361100844CEA /* TextDrawer.swift */; };
+		BB7788161B59361100844CEA /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7788121B59361100844CEA /* TextEditView.swift */; };
 		BBBC7BE21B590AF0001F1209 /* TextDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */; };
 		BBBC7BE91B590AF0001F1209 /* TextDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7BE81B590AF0001F1209 /* TextDrawerTests.swift */; };
 		BBBC7BF31B590B82001F1209 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC7BF21B590B82001F1209 /* Masonry.framework */; };
-		BBBC7BF71B590B9F001F1209 /* DrawTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7BF41B590B9F001F1209 /* DrawTextView.swift */; };
-		BBBC7BF81B590B9F001F1209 /* TextDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7BF51B590B9F001F1209 /* TextDrawer.swift */; };
-		BBBC7BF91B590B9F001F1209 /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7BF61B590B9F001F1209 /* TextEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB77880F1B59361100844CEA /* DrawTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawTextView.swift; path = Sources/DrawTextView.swift; sourceTree = SOURCE_ROOT; };
+		BB7788101B59361100844CEA /* TextDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextDrawer.h; path = Sources/TextDrawer.h; sourceTree = SOURCE_ROOT; };
+		BB7788111B59361100844CEA /* TextDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawer.swift; path = Sources/TextDrawer.swift; sourceTree = SOURCE_ROOT; };
+		BB7788121B59361100844CEA /* TextEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextEditView.swift; path = Sources/TextEditView.swift; sourceTree = SOURCE_ROOT; };
 		BBBC7BD61B590AF0001F1209 /* TextDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBC7BDA1B590AF0001F1209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBBC7BDB1B590AF0001F1209 /* TextDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDrawer.h; sourceTree = "<group>"; };
 		BBBC7BE11B590AF0001F1209 /* TextDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBC7BE71B590AF0001F1209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBC7BE81B590AF0001F1209 /* TextDrawerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDrawerTests.swift; sourceTree = "<group>"; };
 		BBBC7BF21B590B82001F1209 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
-		BBBC7BF41B590B9F001F1209 /* DrawTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTextView.swift; sourceTree = "<group>"; };
-		BBBC7BF51B590B9F001F1209 /* TextDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawer.swift; sourceTree = "<group>"; };
-		BBBC7BF61B590B9F001F1209 /* TextEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB77880E1B59355000844CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB77880F1B59361100844CEA /* DrawTextView.swift */,
+				BB7788101B59361100844CEA /* TextDrawer.h */,
+				BB7788111B59361100844CEA /* TextDrawer.swift */,
+				BB7788121B59361100844CEA /* TextEditView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		BBBC7BCC1B590AF0001F1209 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +92,7 @@
 		BBBC7BD81B590AF0001F1209 /* TextDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				BBBC7BF41B590B9F001F1209 /* DrawTextView.swift */,
-				BBBC7BF51B590B9F001F1209 /* TextDrawer.swift */,
-				BBBC7BF61B590B9F001F1209 /* TextEditView.swift */,
-				BBBC7BDB1B590AF0001F1209 /* TextDrawer.h */,
+				BB77880E1B59355000844CEA /* Sources */,
 				BBBC7BD91B590AF0001F1209 /* Supporting Files */,
 			);
 			path = TextDrawer;
@@ -95,7 +103,7 @@
 			children = (
 				BBBC7BDA1B590AF0001F1209 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BBBC7BE51B590AF0001F1209 /* TextDrawerTests */ = {
@@ -112,7 +120,7 @@
 			children = (
 				BBBC7BE71B590AF0001F1209 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBC7BDC1B590AF0001F1209 /* TextDrawer.h in Headers */,
+				BB7788141B59361100844CEA /* TextDrawer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBC7BF71B590B9F001F1209 /* DrawTextView.swift in Sources */,
-				BBBC7BF81B590B9F001F1209 /* TextDrawer.swift in Sources */,
-				BBBC7BF91B590B9F001F1209 /* TextEditView.swift in Sources */,
+				BB7788131B59361100844CEA /* DrawTextView.swift in Sources */,
+				BB7788151B59361100844CEA /* TextDrawer.swift in Sources */,
+				BB7788161B59361100844CEA /* TextEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +357,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = TextDrawer/Info.plist;
+				INFOPLIST_FILE = "TextDrawer/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +379,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = TextDrawer/Info.plist;
+				INFOPLIST_FILE = "TextDrawer/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,7 +398,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TextDrawerTests/Info.plist;
+				INFOPLIST_FILE = "TextDrawerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -403,7 +411,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TextDrawerTests/Info.plist;
+				INFOPLIST_FILE = "TextDrawerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
