@@ -1,0 +1,6 @@
+framework module TextDrawer {
+  umbrella header "Pods-TextDrawer-umbrella.h"
+
+  export *
+  module * { export * }
+}
