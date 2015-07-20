@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        drawTextView.textBackgroundColor = UIColor.clearColor()
         drawTextView.textColor = UIColor.whiteColor()
         drawTextView.text = "TextDrawer"
         self.view.bringSubviewToFront(containerControlView)
