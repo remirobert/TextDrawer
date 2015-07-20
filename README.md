@@ -77,6 +77,17 @@ self.textDrawer.clearText()
 self.textDrawer.resetTransformation()
 ```
 
+`TextDrawer` configuration:
+
+```Swift
+drawTextView.font = UIFont.systemFontOfSize(34)
+drawTextView.textColor = UIColor.whiteColor()
+drawTextView.textAlignement = NSTextAlignment.Center
+drawTextView.textBackgroundColor = UIColor.redColor()
+drawTextView.text = "test input"
+drawTextView.textSize = 40
+```
+
 ## License
 
 `TextDrawer` is released under an [MIT License][mitLink]. See `LICENSE` for details.
