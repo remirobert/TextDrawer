@@ -49,11 +49,11 @@ public class TextDrawer: UIView, TextEditViewDelegate {
         return zoomRecognizer
     }()
     
-    func clearText() {
+    public func clearText() {
         text = ""
     }
     
-    func resetTransformation() {
+    public func resetTransformation() {
         drawTextView.transform = initialTransformation
         drawTextView.mas_updateConstraints({ (make: MASConstraintMaker!) -> Void in
             make.edges.equalTo()(self)
@@ -119,9 +119,9 @@ public class TextDrawer: UIView, TextEditViewDelegate {
 //MARK: -
 //MARK: Proprety extension
 
-extension TextDrawer {
+public extension TextDrawer {
     
-    var fontSize: CGFloat! {
+    public var fontSize: CGFloat! {
         set {
             drawTextView.textLabel.font = drawTextView.textLabel.font.fontWithSize(newValue)
         }
@@ -130,7 +130,7 @@ extension TextDrawer {
         }
     }
     
-    var font: UIFont! {
+    public var font: UIFont! {
         set {
             drawTextView.textLabel.font = newValue
         }
@@ -139,7 +139,7 @@ extension TextDrawer {
         }
     }
     
-    var textColor: UIColor! {
+    public var textColor: UIColor! {
         set {
             drawTextView.textLabel.textColor = newValue
         }
@@ -148,7 +148,7 @@ extension TextDrawer {
         }
     }
     
-    var textAlignement: NSTextAlignment! {
+    public var textAlignement: NSTextAlignment! {
         set {
             drawTextView.textLabel.textAlignment = newValue
         }
@@ -157,7 +157,7 @@ extension TextDrawer {
         }
     }
     
-    var textBackgroundColor: UIColor! {
+    public var textBackgroundColor: UIColor! {
         set {
             drawTextView.textLabel.backgroundColor = newValue
         }
@@ -166,7 +166,7 @@ extension TextDrawer {
         }
     }
     
-    var text: String! {
+    public var text: String! {
         set {
             drawTextView.text = newValue
         }
@@ -246,13 +246,13 @@ extension TextDrawer: UIGestureRecognizerDelegate {
 //MARK: -
 //MARK: Render extension
 
-extension TextDrawer {
+public extension TextDrawer {
     
-    func render() -> UIImage? {
+    public func render() -> UIImage? {
         return renderTextOnView(self)
     }
     
-    func renderTextOnView(view: UIView) -> UIImage? {
+    public func renderTextOnView(view: UIView) -> UIImage? {
         let size = UIScreen.mainScreen().bounds.size
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0)
@@ -264,7 +264,7 @@ extension TextDrawer {
         return renderTextOnImage(img)
     }
     
-    func renderTextOnImage(image: UIImage) -> UIImage? {
+    public func renderTextOnImage(image: UIImage) -> UIImage? {
         let size = image.size
         let scale = size.width / CGRectGetWidth(self.bounds)
         let color = layer.backgroundColor

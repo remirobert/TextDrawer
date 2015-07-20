@@ -1,13 +1,13 @@
 PODS:
   - Masonry (0.6.2)
-  - TextDrawer (1.0.4):
+  - TextDrawer (1.0.5):
     - Masonry
 
 DEPENDENCIES:
-  - TextDrawer (~> 1.0.4)
+  - TextDrawer (~> 1.0.5)
 
 SPEC CHECKSUMS:
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
-  TextDrawer: de02b447a3bd12345be61f5dbb1ec7f14fc89b12
+  TextDrawer: 66d4a25b44f00399d14426f8300fa12e5d7c0cc6
 
 COCOAPODS: 0.38.0

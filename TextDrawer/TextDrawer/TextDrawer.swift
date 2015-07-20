@@ -174,6 +174,15 @@ public extension TextDrawer {
             return drawTextView.text
         }
     }
+    
+    public var textSize: Int! {
+        set {
+            textEditView.textSize = newValue
+        }
+        get {
+            return textEditView.textSize
+        }
+    }
 }
 
 //MARK: -

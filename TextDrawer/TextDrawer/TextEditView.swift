@@ -20,6 +20,8 @@ public class TextEditView: UIView {
     
     var delegate: TextEditViewDelegate?
 
+    var textSize: Int! = 42
+    
     var textEntry: String! {
         set {
             textView.text = newValue
@@ -94,7 +96,7 @@ extension TextEditView: UITextViewDelegate {
             isEditing = false
             return false
         }
-        if count(textView.text) + count(text) > 200 {
+        if count(textView.text) + count(text) > textSize {
             return false
         }
         return true
