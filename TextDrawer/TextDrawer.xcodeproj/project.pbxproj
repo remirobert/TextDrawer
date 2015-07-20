@@ -13,7 +13,7 @@
 		BBC02C461B5CECC500E4BBEA /* DrawTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC02C431B5CECC500E4BBEA /* DrawTextView.swift */; };
 		BBC02C471B5CECC500E4BBEA /* TextDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC02C441B5CECC500E4BBEA /* TextDrawer.swift */; };
 		BBC02C481B5CECC500E4BBEA /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC02C451B5CECC500E4BBEA /* TextEditView.swift */; };
-		BBC02C4A1B5CECD200E4BBEA /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC02C491B5CECD200E4BBEA /* Masonry.framework */; };
+		BBC02C511B5D31D000E4BBEA /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC02C501B5D31D000E4BBEA /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 		BBC02C431B5CECC500E4BBEA /* DrawTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTextView.swift; sourceTree = "<group>"; };
 		BBC02C441B5CECC500E4BBEA /* TextDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawer.swift; sourceTree = "<group>"; };
 		BBC02C451B5CECC500E4BBEA /* TextEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
-		BBC02C491B5CECD200E4BBEA /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		BBC02C501B5D31D000E4BBEA /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = ../Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC02C4A1B5CECD200E4BBEA /* Masonry.framework in Frameworks */,
+				BBC02C511B5D31D000E4BBEA /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		BBC02C1D1B5CECA600E4BBEA = {
 			isa = PBXGroup;
 			children = (
-				BBC02C491B5CECD200E4BBEA /* Masonry.framework */,
+				BBC02C501B5D31D000E4BBEA /* Masonry.framework */,
 				BBC02C291B5CECA600E4BBEA /* TextDrawer */,
 				BBC02C361B5CECA700E4BBEA /* TextDrawerTests */,
 				BBC02C281B5CECA600E4BBEA /* Products */,
@@ -426,6 +426,7 @@
 				BBC02C3F1B5CECA700E4BBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC02C401B5CECA700E4BBEA /* Build configuration list for PBXNativeTarget "TextDrawerTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				BBC02C421B5CECA700E4BBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
