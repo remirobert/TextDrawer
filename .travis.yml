@@ -10,4 +10,4 @@ before_install:
   - carthage bootstrap --verbose
 
 script:
-- xcodebuild clean build -project TextDrawer/TextDrawer.xcodeproj -scheme TextDrawer
+  - xcodebuild clean build -project TextDrawer/TextDrawer.xcodeproj -scheme TextDrawer
