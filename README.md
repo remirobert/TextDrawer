@@ -54,3 +54,12 @@ The first one is the `TextEditView`. It allows you to edit the text. it is compo
 Next, `DrawTextView`, is a `UIView`, showing your text in the view.
 And, `TextDrawer`, it contains the above views. Tt allows to configure some parameter (like font, size, color, etc ...). All the gestures are managed here.
 
+## License
+
+`TextDrawer` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+
+>**Copyright &copy; 2015 Rémi ROBERT.**
+
+*Please provide attribution, it is greatly appreciated.*
+
+[mitLink]:http://opensource.org/licenses/MIT
