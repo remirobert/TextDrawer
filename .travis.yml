@@ -2,10 +2,10 @@ osx_image: xcode6.4
 
 language: objective-c
 
-before_install:
-- brew update
-- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+xcode_project: TextDrawer/TextDrawer.xcodeproj
+xcode_scheme: TextDrawer/TextDrawerTests
+osx_image: xcode6.4
+xcode_sdk: iphonesimulator8.4
 
 script:
-- xctool clean build test -workspace TextDrawer.xcworkspace -scheme Example -sdk iphonesimulator8.4 ONLY_ACTIVE_ARCH=NO
-- xctool clean build test -project TextDrawer/TextDrawer.xcodeproj -scheme TextDrawer -sdk iphonesimulator8.4 ONLY_ACTIVE_ARCH=NO
+- xcodebuild clean build test -project TextDrawer/TextDrawer.xcodeproj -scheme TextDrawer/TextDrawerTests
