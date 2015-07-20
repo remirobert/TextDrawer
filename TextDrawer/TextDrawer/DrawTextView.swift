@@ -14,7 +14,7 @@ class CustomLabel: UILabel {
     }
 }
 
-class DrawTextView: UIView {
+public class DrawTextView: UIView {
 
     var textLabel: CustomLabel!
     
@@ -45,7 +45,7 @@ class DrawTextView: UIView {
         textLabel.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.5)
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 

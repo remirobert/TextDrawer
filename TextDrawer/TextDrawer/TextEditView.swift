@@ -13,7 +13,7 @@ protocol TextEditViewDelegate {
     func textEditViewFinishedEditing(text: String)
 }
 
-class TextEditView: UIView {
+public class TextEditView: UIView {
 
     private var textView: UITextView!
     private var textContainer: UIView!
@@ -78,7 +78,7 @@ class TextEditView: UIView {
         keyboardNotification()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -89,7 +89,7 @@ class TextEditView: UIView {
 
 extension TextEditView: UITextViewDelegate {
     
-    func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+    public func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
         if text == "\n" {
             isEditing = false
             return false

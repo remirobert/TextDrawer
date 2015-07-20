@@ -11,7 +11,7 @@
 import UIKit
 import Masonry
 
-class TextDrawer: UIView, TextEditViewDelegate {
+public class TextDrawer: UIView, TextEditViewDelegate {
 
     private var textEditView: TextEditView!
     private var drawTextView: DrawTextView!
@@ -105,7 +105,7 @@ class TextDrawer: UIView, TextEditViewDelegate {
         setup()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -181,7 +181,7 @@ extension TextDrawer {
 
 extension TextDrawer: UIGestureRecognizerDelegate {
     
-    func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    public func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
     
