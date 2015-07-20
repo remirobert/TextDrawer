@@ -8,7 +8,7 @@
 Annotating Images
 
 TextDrawer is the easiest way to add text to `UIImage` with a touch interface. You can add text, with resizable, move, and rotate gesture with `UIGestureRecognizer`.
-With TextDrawer, it's easily save the notes on top of a `UIImage`.
+With TextDrawer, it's easily save notes on top of a `UIImage`.
 
 ## Requirements
 
