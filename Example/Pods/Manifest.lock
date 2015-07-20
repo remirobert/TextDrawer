@@ -4,19 +4,10 @@ PODS:
     - Masonry
 
 DEPENDENCIES:
-  - TextDrawer (from `https://github.com/remirobert/TextDrawer.git`)
-
-EXTERNAL SOURCES:
-  TextDrawer:
-    :git: https://github.com/remirobert/TextDrawer.git
-
-CHECKOUT OPTIONS:
-  TextDrawer:
-    :commit: c0bd22e01213ba91dd7ff389899d5b533f719c00
-    :git: https://github.com/remirobert/TextDrawer.git
+  - TextDrawer (~> 1.0.3)
 
 SPEC CHECKSUMS:
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
-  TextDrawer: 8c8b6caf5b374d5cb7ab446d5a7744df0b3bd8a9
+  TextDrawer: 0e7bbbda4bc48823e054ac9513923828f800aa6b
 
 COCOAPODS: 0.38.0
