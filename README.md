@@ -55,8 +55,14 @@ Next, `DrawTextView`, is a `UIView`, showing your text in the view.
 And, `TextDrawer`, it contains the above views. Tt allows to configure some parameter (like font, size, color, etc ...). All the gestures are managed here.
 
 ## Usage
-Add an instance of `TextDrawer` above an `UIImageView`, or an another `UIView`. Adjust the size and layout of `TextDrawer` however you'd like.
+Add an instance of `TextDrawer` above an `UIImageView`, or an another `UIView`. Adjust the size and layout of `TextDrawer` however you'd like. `TextDrawer` uses, `Masonry` for manage auto-layout. You don't have anything to do, after that. `TextDrawer` will handle, the gesture alone.
 
+Clear the `TextDrawer` view:
+
+```Swift
+self.textDrawer.clearText()
+self.textDrawer.resetTransformation()
+```
 
 ## License
 
