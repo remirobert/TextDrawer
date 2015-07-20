@@ -57,6 +57,19 @@ And, `TextDrawer`, it contains the above views. Tt allows to configure some para
 ## Usage
 Add an instance of `TextDrawer` above an `UIImageView`, or an another `UIView`. Adjust the size and layout of `TextDrawer` however you'd like. `TextDrawer` uses, `Masonry` for manage auto-layout. You don't have anything to do, after that. `TextDrawer` will handle, the gesture alone.
 
+Render the `TextDrawer` to an `UIImage` outup:
+
+```Swift
+// draw the TextDrawer view on an UIImageView
+let image = drawTextView.renderTextOnView(imageViewBackground)
+
+// render the TextDrawer View to UIImage
+let image = drawTextView.render()
+
+// render the TextDrawer View directly on an UIImage
+let image = drawTextView.renderTextOnImage(image)
+```
+
 Clear the `TextDrawer` view:
 
 ```Swift
