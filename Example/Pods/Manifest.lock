@@ -1,13 +1,16 @@
 PODS:
+  - Alamofire (1.2.3)
   - Masonry (0.6.2)
-  - TextDrawer (1.0.1):
+  - TextDrawer (1.0.2):
     - Masonry
 
 DEPENDENCIES:
-  - TextDrawer
+  - Alamofire
+  - TextDrawer (~> 1.0.2)
 
 SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
-  TextDrawer: c827ffc6b39a7f05c84a183837ce870f15d17459
+  TextDrawer: f365399711531176045866814a2cd47592ffd41a
 
 COCOAPODS: 0.37.2

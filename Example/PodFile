@@ -1,3 +1,4 @@
 use_frameworks!
-pod 'TextDrawer'
+pod 'TextDrawer', '~> 1.0.2'
+pod 'Alamofire'
 
