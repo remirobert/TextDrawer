@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.author                = { "rémi " => "remirobert33530@gmail.com" }
 
   s.source                = { :git => "https://github.com/remirobert/TextDrawer.git", :tag => "1.0.3" }
-  s.source_files = 'TextDrawer/*.swift'
+  s.source_files = 'TextDrawer/TextDrawer/*.swift'
   s.dependency 'Masonry'
 end

@@ -1,4 +1,3 @@
 use_frameworks!
-pod 'TextDrawer', '~> 1.0.2'
-pod 'Alamofire'
+pod 'TextDrawer', :git => 'https://github.com/remirobert/TextDrawer.git'
 

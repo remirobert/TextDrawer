@@ -1,5 +1,5 @@
 framework module Masonry {
-  umbrella header "Pods-Masonry-umbrella.h"
+  umbrella header "Masonry-umbrella.h"
 
   export *
   module * { export * }
