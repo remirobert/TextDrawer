@@ -35,6 +35,7 @@ public class DrawTextView: UIView {
         textLabel.textAlignment = NSTextAlignment.Center
         textLabel.numberOfLines = 0
         textLabel.textColor = UIColor.blackColor()
+        textLabel.backgroundColor = UIColor.clearColor()
         addSubview(textLabel)
         
         textLabel.mas_makeConstraints { (make: MASConstraintMaker!) -> Void in

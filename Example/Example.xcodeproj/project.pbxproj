@@ -14,6 +14,7 @@
 		BB7788911B5940F000844CEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7788901B5940F000844CEA /* Images.xcassets */; };
 		BB7788941B5940F000844CEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7788921B5940F000844CEA /* LaunchScreen.xib */; };
 		BB7788A01B5940F100844CEA /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77889F1B5940F100844CEA /* ExampleTests.swift */; };
+		BBC02C4E1B5D143700E4BBEA /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC02C4D1B5D143700E4BBEA /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BB7788991B5940F000844CEA /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB77889E1B5940F100844CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB77889F1B5940F100844CEA /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		BBC02C4D1B5D143700E4BBEA /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		BB7788861B5940F000844CEA /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				BBC02C4D1B5D143700E4BBEA /* PreviewViewController.swift */,
 				BB7788891B5940F000844CEA /* AppDelegate.swift */,
 				BB77888B1B5940F000844CEA /* ViewController.swift */,
 				BB77888D1B5940F000844CEA /* Main.storyboard */,
@@ -289,6 +292,7 @@
 			files = (
 				BB77888C1B5940F000844CEA /* ViewController.swift in Sources */,
 				BB77888A1B5940F000844CEA /* AppDelegate.swift in Sources */,
+				BBC02C4E1B5D143700E4BBEA /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

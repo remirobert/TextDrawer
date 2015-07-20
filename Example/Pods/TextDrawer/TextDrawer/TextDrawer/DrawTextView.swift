@@ -42,7 +42,6 @@ public class DrawTextView: UIView {
             make.centerY.equalTo()(self)
             make.centerX.equalTo()(self)
         }
-        textLabel.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.5)
     }
 
     required public init(coder aDecoder: NSCoder) {
