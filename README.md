@@ -88,6 +88,10 @@ drawTextView.text = "test input"
 drawTextView.textSize = 40
 ```
 
+## Contributors
+
+* [Rémi ROBERT](https://github.com/remirobert), creator.
+
 ## License
 
 `TextDrawer` is released under an [MIT License][mitLink]. See `LICENSE` for details.
