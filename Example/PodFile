@@ -1,3 +1,3 @@
 use_frameworks!
-pod 'TextDrawer'
+pod 'TextDrawer', '~> 1.0.4'
 
