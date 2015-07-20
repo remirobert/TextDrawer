@@ -3,5 +3,11 @@ language: objective-c
 xcode_project: TextDrawer/TextDrawer.xcodeproj
 xcode_scheme: TextDrawer/TextDrawerTests
 
+before_install:
+  - brew update
+  - brew upgrade xctool
+  - brew install carthage
+  - carthage bootstrap --verbose
+
 script:
 - xcodebuild clean build -project TextDrawer/TextDrawer.xcodeproj -scheme TextDrawer
