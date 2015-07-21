@@ -54,7 +54,7 @@ import TextDrawer
 This framework is composed on different parts.
 The first one is the `TextEditView`. It allows you to edit the text. it is composed of a `UITextView`, and manage the keyboard notifications.
 Next, `DrawTextView`, is a `UIView`, showing your text in the view.
-And, `TextDrawer`, it contains the above views. Tt allows to configure some parameter (like font, size, color, etc ...). All the gestures are managed here.
+And, `TextDrawer`, it contains the above views. It allows to configure some parameter (like font, size, color, etc ...). All the gestures are managed here.
 
 ## Usage
 Add an instance of `TextDrawer` above an `UIImageView`, or an another `UIView`. Adjust the size and layout of `TextDrawer` however you'd like. `TextDrawer` uses, `Masonry` to manage auto-layout. You don't have anything to do, after that. `TextDrawer` will handle, the gesture for you.
