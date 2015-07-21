@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.homepage              = "https://github.com/remirobert/TextDrawer"
   s.ios.deployment_target = '8.0'
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots           = "http://share.gifyoutube.com/vJAB4g.gif"
 
   s.license               = "MIT"
 
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.author                = { "rémi " => "remirobert33530@gmail.com" }
 
   s.source                = { :git => "https://github.com/remirobert/TextDrawer.git", :tag => "1.0.6" }
-  s.source_files = 'TextDrawer/TextDrawer/*.swift'
+  s.source_files          = 'TextDrawer/TextDrawer/*.swift'
   s.dependency 'Masonry'
 end
