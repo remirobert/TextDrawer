@@ -94,7 +94,7 @@ drawTextView.textSize = 40
 
 ## Contributors
 
-* [Rémi ROBERT](https://github.com/remirobert), creator.
+* [Rémi ROBERT](https://github.com/remirobert), creator. ( ﾟヮﾟ)
 
 ## License
 
