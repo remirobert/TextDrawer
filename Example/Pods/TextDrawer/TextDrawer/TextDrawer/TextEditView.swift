@@ -80,7 +80,7 @@ public class TextEditView: UIView {
         keyboardNotification()
     }
 
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -96,7 +96,7 @@ extension TextEditView: UITextViewDelegate {
             isEditing = false
             return false
         }
-        if count(textView.text) + count(text) > textSize {
+        if textView.text.characters.count + text.characters.count > textSize {
             return false
         }
         return true
@@ -106,10 +106,10 @@ extension TextEditView: UITextViewDelegate {
 extension TextEditView {
     
     func keyboardNotification() {
-        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardWillChangeFrameNotification, object: nil, queue: nil) { (notification: NSNotification!) -> Void in
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardWillChangeFrameNotification, object: nil, queue: nil) { (notification: NSNotification) -> Void in
             if let userInfo = notification.userInfo {
                 self.textContainer.layer.removeAllAnimations()
-                if let keyboardRectEnd = userInfo[UIKeyboardFrameEndUserInfoKey]?.CGRectValue(),
+                if let keyboardRectEnd = userInfo[UIKeyboardFrameEndUserInfoKey]?.CGRectValue,
                     let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey]?.floatValue {
                         
                         dispatch_async(dispatch_get_main_queue(), { () -> Void in
