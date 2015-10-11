@@ -54,7 +54,6 @@ public class DrawTextView: UIView {
         let styleText = NSMutableParagraphStyle()
         styleText.alignment = NSTextAlignment.Center
         let attributsText = [NSParagraphStyleAttributeName:styleText, NSFontAttributeName:UIFont.boldSystemFontOfSize(textLabel.font.pointSize)]
-        let sizeParentView = CGSizeMake(CGRectGetWidth(superview!.frame) - 10, CGRectGetHeight(superview!.frame) - 10)
         let sizeTextLabel = (NSString(string: textLabel.text!)).boundingRectWithSize(superview!.frame.size, options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: attributsText, context: nil)
         textLabel.frame.size = CGSizeMake(sizeTextLabel.width + 10, sizeTextLabel.height + 10)
         textLabel.center = oldCenter

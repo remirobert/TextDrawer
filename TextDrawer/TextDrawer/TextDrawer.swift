@@ -261,12 +261,10 @@ public extension TextDrawer {
         return renderTextOnView(self)
     }
     
-    public func renderTextOnView(view: UIView) -> UIImage? {
-        let size = UIScreen.mainScreen().bounds.size
-        
+    public func renderTextOnView(view: UIView) -> UIImage? {        
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0)
         
-        view.layer.renderInContext(UIGraphicsGetCurrentContext())
+        view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let img = UIGraphicsGetImageFromCurrentImageContext()
         
         UIGraphicsEndImageContext()
@@ -285,12 +283,12 @@ public extension TextDrawer {
             image.size.width / scale,
             image.size.height / scale))
         layer.backgroundColor = UIColor.clearColor().CGColor
-        layer.renderInContext(UIGraphicsGetCurrentContext())
+        layer.renderInContext(UIGraphicsGetCurrentContext()!)
         layer.backgroundColor = color
 
         
         let drawnImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-        return UIImage(CGImage: drawnImage.CGImage, scale: 1, orientation: drawnImage.imageOrientation)
+        return UIImage(CGImage: drawnImage.CGImage!, scale: 1, orientation: drawnImage.imageOrientation)
     }
 }
