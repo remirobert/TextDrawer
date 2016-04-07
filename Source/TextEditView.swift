@@ -96,7 +96,7 @@ extension TextEditView: UITextViewDelegate {
             isEditing = false
             return false
         }
-        if count(textView.text) + count(text) > textSize {
+        if textView.text.characters.count + text.characters.count > textSize {
             return false
         }
         return true
