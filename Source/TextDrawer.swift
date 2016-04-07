@@ -105,7 +105,7 @@ public class TextDrawer: UIView, TextEditViewDelegate {
         setup()
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -266,7 +266,7 @@ public extension TextDrawer {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0)
         
-        view.layer.renderInContext(UIGraphicsGetCurrentContext())
+        view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let img = UIGraphicsGetImageFromCurrentImageContext()
         
         UIGraphicsEndImageContext()
@@ -285,12 +285,12 @@ public extension TextDrawer {
             image.size.width / scale,
             image.size.height / scale))
         layer.backgroundColor = UIColor.clearColor().CGColor
-        layer.renderInContext(UIGraphicsGetCurrentContext())
+        layer.renderInContext(UIGraphicsGetCurrentContext()!)
         layer.backgroundColor = color
 
         
         let drawnImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-        return UIImage(CGImage: drawnImage.CGImage, scale: 1, orientation: drawnImage.imageOrientation)
+        return UIImage(CGImage: drawnImage.CGImage!, scale: 1, orientation: drawnImage.imageOrientation)
     }
 }
