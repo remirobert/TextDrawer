@@ -20,6 +20,9 @@ public class DrawTextView: UIView {
     
     var text: String! {
         didSet {
+            if textLabel.text == text {
+                return
+            }
             textLabel.text = text
             sizeTextLabel()
         }
